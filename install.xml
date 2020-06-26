@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+  <name>CKEditor 5 Mod</name> 
+  <code>ckeditor_mod</code>
+  <version>1.0</version>
+  <author>Dmitriy Krotkov</author>
+  <link></link>
+
+<file path="admin/view/template/catalog/product_form.tpl">
+  <operation>
+    <search trim="true"><![CDATA[
+       <script type="text/javascript" src="view/javascript/summernote/summernote.js"></script>
+    ]]></search>
+    <add position="replace" offset="2"><![CDATA[
+        <script type="text/javascript" src="view/javascript/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" src="view/javascript/ckeditor/opencart.js"></script>
+    ]]></add>
+  </operation>
+</file>
+
+<file path="admin/view/template/catalog/information_form.tpl">
+  <operation>
+    <search trim="true"><![CDATA[
+       <script type="text/javascript" src="view/javascript/summernote/summernote.js"></script>
+    ]]></search>
+    <add position="replace" offset="2"><![CDATA[
+        <script type="text/javascript" src="view/javascript/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" src="view/javascript/ckeditor/opencart.js"></script>
+    ]]></add>
+  </operation>
+</file>
+
+<file path="admin/view/template/catalog/category_form.tpl">
+  <operation>
+    <search trim="true"><![CDATA[
+       <script type="text/javascript" src="view/javascript/summernote/summernote.js"></script>
+    ]]></search>
+    <add position="replace" offset="2"><![CDATA[
+        <script type="text/javascript" src="view/javascript/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" src="view/javascript/ckeditor/opencart.js"></script>
+    ]]></add>
+  </operation>
+</file>
+
+<file path="admin/view/template/extension/module/html.tpl">
+  <operation>
+    <search trim="true"><![CDATA[
+       <script type="text/javascript" src="view/javascript/summernote/summernote.js"></script>
+    ]]></search>
+    <add position="replace" offset="2"><![CDATA[
+        <script type="text/javascript" src="view/javascript/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" src="view/javascript/ckeditor/opencart.js"></script>
+    ]]></add>
+  </operation>
+</file>
+
+<file path="admin/view/template/marketing/contact.tpl">
+  <operation>
+    <search trim="true"><![CDATA[
+       <script type="text/javascript" src="view/javascript/summernote/summernote.js"></script>
+    ]]></search>
+    <add position="replace" offset="2"><![CDATA[
+        <script type="text/javascript" src="view/javascript/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" src="view/javascript/ckeditor/opencart.js"></script>
+    ]]></add>
+  </operation>
+</file>
+
+<file path="admin/view/template/extension/openbay/ebay_new.tpl">
+  <operation>
+    <search trim="true"><![CDATA[
+       <script type="text/javascript" src="view/javascript/summernote/summernote.js"></script>
+    ]]></search>
+    <add position="replace" offset="2"><![CDATA[
+        <script type="text/javascript" src="view/javascript/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" src="view/javascript/ckeditor/opencart.js"></script>
+    ]]></add>
+  </operation>
+</file>
+
+</modification>
